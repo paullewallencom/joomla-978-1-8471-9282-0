@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/plugin-install.dtd">
+<install version="1.5" type="plugin" group="foobar">
+    <name>Foobar - My Extension</name>
+    <author>Author's Name</author>
+    <authorEmail>Author's Email</authorEmail>
+    <authorUrl>Author's Website</authorUrl>
+    <creationDate>MonthName Year</creationDate>
+    <copyright>Copyright Notice</copyright>
+    <license>Plugin License Agreement</license>
+    <version>Plugin Version</version>
+    <description>Plugin Description</description>
+    <files>
+        <filename plugin="myextension">myextension.php</filename>
+    </files>
+    <params/>
+</install>

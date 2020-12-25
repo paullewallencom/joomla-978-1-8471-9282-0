@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <params addpath="/administrator/components/com_myextension/elements">
+        <param name="title" type="text" default="My Title" label="Title" description="Title of page" size="30" />
+        <param name="description" type="textarea" default="" label="Description" rows="5" cols="50" description="Description to display at the top of the page." />
+        <param name="menus" type="menus" label="Select Menus" description="Test JElementMenus" default="3">
+            <group>Group 1
+                <option value="1">Value 1</option>
+                <option value="2">Value 2</option>
+                <option value="3">Value 3</option>
+            </group>
+            <group>Group 2
+                <option value="4">Value 4</option>
+                <option value="5">Value 5</option>
+            </group>
+        </param>
+    </params>
+</config>

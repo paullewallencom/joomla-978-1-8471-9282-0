@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/module-install.dtd">
+<install version="1.5" type="module" client="site">
+    <name>My Extension</name>
+    <author>Author's Name</author>
+    <authorEmail>Author's Email</authorEmail>
+    <authorUrl>Author's Website</authorUrl>
+    <creationDate>MonthName Year</creationDate>
+    <copyright>Copyright Notice</copyright>
+    <license>Module License Agreement</license>
+    <version>Module Version</version>
+    <description>Module Description</description>
+    <files>
+        <filename module="mod_myextension">mod_myextension.php</filename>
+    </files>
+</install>
+	<params>
+		<param name="aparam" type="text" label="A Parameter" description="A description" />
+    </params>
+    <params group="advanced">
+        <param name="anotherparan" type="text" label="Another Parameter" description="A description" />
+    </params>
+</install>

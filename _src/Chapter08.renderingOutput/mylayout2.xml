@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <layout title="My Layout">
+        <message>
+            <![CDATA[Description of my layout.]]>
+        </message>
+    </layout>
+    <state>
+        <name>My Layout</name>
+        <description>Description of my layout.</description>
+        <params>
+            <param type="text" name="param1" label="A Parameter" description="Some description of the parameter" default="default value"/>
+            <param name="show" type="radio" default="1" label="Show" description="Show/Hide something">
+                <option value="0">Hide</option>
+                <option value="1">Show</option>
+            </param>
+        </params>
+    </state>
+</metadata>

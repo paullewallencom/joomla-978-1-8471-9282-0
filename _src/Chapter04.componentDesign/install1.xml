@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<install type="component" version="1.5">
+  <name>My Extension</name>
+  <creationDate>MonthName Year</creationDate>
+  <author>Author's Name</author>
+  <authorEmail>Author's Email</authorEmail>
+  <authorUrl>Author's Website</authorUrl>
+  <copyright>Copyright Notice</copyright>
+  <license>Component License Agreement</license>
+  <version>Component Version</version>
+  <description>Component Description</description>
+  <administration>
+    <menu>My Extension</menu>
+  </administration>
+  <install />
+  <uninstall />
+</install>
